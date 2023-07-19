@@ -1,0 +1,83 @@
+th {
+  padding: 10px;
+  text-align: left;
+  min-width: 100px;
+  width: 1%;
+}
+tr {
+  border-bottom: 2px solid rgb(179, 175, 175);
+}
+
+.footer-buttons {
+  display: flex;
+  justify-items: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.pageButtons {
+  margin: 0 auto;
+  text-align: left;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  width: 70%;
+}
+
+.button-previous,
+.button-next,
+.button-first,
+.button-last,
+.pagination-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(3, 131, 217);
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.pagination-button-current {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+  color: rgb(3, 131, 217);
+  border: 1px solid rgb(3, 131, 217);
+  cursor: pointer;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.delete-selected {
+  background-color: #ff4768;
+  color: white;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.checkbox {
+  margin-right: 10px;
+}
+
+.button-first-disabled,
+.button-previous-disabled,
+.button-next-disabled,
+.button-last-disabled {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(226, 226, 226);
+  border: none;
+  color: rgb(169, 168, 168);
+  cursor: pointer;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}

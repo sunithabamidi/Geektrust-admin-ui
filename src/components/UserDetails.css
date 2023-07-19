@@ -1,0 +1,29 @@
+.userDetail td {
+  padding: 10px;
+  text-align: left;
+  min-width: 100px;
+  width: 1%;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  /* justify-content: space-between; */
+}
+
+.actions .edit,
+.actions .delete {
+  color: #c72525;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.actions .edit:hover,
+.actions .delete:hover {
+  color: #333;
+}
