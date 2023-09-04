@@ -56,10 +56,10 @@ const Pagination = ({ userData, usersPerPage }) => {
               onChange={handleCheckboxChange}
             />
           </th>
-          <th>ID</th>
-          <th>Name</th>
-          <th>Email</th>
-          <th>Actions</th>
+          <th className="heading-name">Name</th>
+          <th className="heading-email">Email</th>
+          <th className="heading-role">Role</th>
+          <th className="heading-actions">Actions</th>
         </tr>
       </thead>
       {currentItems.map((item) => (

@@ -81,3 +81,11 @@ tr {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  .heading-email,
+  .heading-role {
+    display: none;
+  }
+}

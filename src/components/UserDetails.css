@@ -5,7 +5,8 @@
   width: 1%;
 }
 
-.checkbox {
+.checkbox,
+.checkbox-disabled {
   margin-right: 10px;
 }
 
@@ -26,4 +27,48 @@
 .actions .edit:hover,
 .actions .delete:hover {
   color: #333;
+}
+
+.save-button {
+  align-self: center;
+  border-style: none;
+  background-color: #c72525;
+  color: aliceblue;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.3s;
+  height: 2rem;
+}
+
+.save-button:hover {
+  background-color: #333;
+  color: aliceblue;
+}
+
+.text-feilds {
+  border-style: none;
+  border: 2px solid #c72525;
+  border-radius: 5px;
+  height: 0.8rem;
+  background-color: #e2dddd;
+  color: #c72525;
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  .user-detail-email,
+  .user-detail-role,
+  .checkbox-disabled {
+    display: none;
+  }
+
+  .text-feilds {
+    width: 100px;
+  }
+  .userDetails-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom-style: none;
+  }
 }
